@@ -1,0 +1,6 @@
+framework module Pods_GridWithUnsplashAPI_GridWithUnsplashAPIUITests {
+  umbrella header "Pods-GridWithUnsplashAPI-GridWithUnsplashAPIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

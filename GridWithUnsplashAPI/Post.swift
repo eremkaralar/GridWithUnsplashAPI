@@ -9,11 +9,9 @@ import Foundation
 
 struct Post : Codable{
     var id : String
-    var urls : URLs
+    var urls : PostUrls
 }
 
-
-struct URLs : Codable{
+struct PostUrls : Codable{
     var regular : String
-    
 }
