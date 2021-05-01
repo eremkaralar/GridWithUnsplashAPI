@@ -21,6 +21,7 @@
 		9BE9EE8B262EFE6F00C86EFD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9EE8A262EFE6F00C86EFD /* Post.swift */; };
 		9BF56020262F2A1D004CF288 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5601E262F2A1D004CF288 /* PictureCollectionViewCell.swift */; };
 		9BF56021262F2A1D004CF288 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5601F262F2A1D004CF288 /* PictureCollectionViewCell.xib */; };
+		9BFF9DD3263BFBEC001A1878 /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF9DD2263BFBEC001A1878 /* SearchCollectionReusableView.swift */; };
 		D68A6A6E68F823E01A727B8F /* Pods_GridWithUnsplashAPI_GridWithUnsplashAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE96EA64BBE0F323EB35ED /* Pods_GridWithUnsplashAPI_GridWithUnsplashAPIUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		9BE9EE8A262EFE6F00C86EFD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9BF5601E262F2A1D004CF288 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
 		9BF5601F262F2A1D004CF288 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		9BFF9DD2263BFBEC001A1878 /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
 		9DBC314E5C24B56F969C87B6 /* Pods-GridWithUnsplashAPI-GridWithUnsplashAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridWithUnsplashAPI-GridWithUnsplashAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-GridWithUnsplashAPI-GridWithUnsplashAPIUITests/Pods-GridWithUnsplashAPI-GridWithUnsplashAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EBAB29F7C48C9DA4020EC21A /* Pods_GridWithUnsplashAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridWithUnsplashAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 				9BF5601E262F2A1D004CF288 /* PictureCollectionViewCell.swift */,
 				9BF5601F262F2A1D004CF288 /* PictureCollectionViewCell.xib */,
 				9B5044632630AAE200E8E7F8 /* NetworkManager.swift */,
+				9BFF9DD2263BFBEC001A1878 /* SearchCollectionReusableView.swift */,
 			);
 			path = GridWithUnsplashAPI;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				9BF56020262F2A1D004CF288 /* PictureCollectionViewCell.swift in Sources */,
 				9BE9EE5A262EFE2100C86EFD /* SceneDelegate.swift in Sources */,
 				9BE9EE8B262EFE6F00C86EFD /* Post.swift in Sources */,
+				9BFF9DD3263BFBEC001A1878 /* SearchCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

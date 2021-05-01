@@ -11,7 +11,6 @@ struct Post : Codable{
     var id : String
     var urls : PostUrls
 }
-
 struct PostUrls : Codable{
     var regular : String
 }

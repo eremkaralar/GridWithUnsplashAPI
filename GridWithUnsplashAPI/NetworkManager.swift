@@ -78,10 +78,10 @@ class NetworkManager {
     
     task.resume()
   }
-  
+//  Using Cache Images
   private func download(imageURL: URL, completion: @escaping (Data?, Error?) -> (Void)) {
     if let imageData = images.object(forKey: imageURL.absoluteString as NSString) {
-      print("using cached images")
+     
       completion(imageData as Data, nil)
       return
     }
